@@ -39,4 +39,12 @@ public class StudentDto {
 		this.semester = semester;
 	}
 
+	@Override
+	public String toString() {
+		return "StudentDto [studentid=" + studentid + ", name=" + name + ", email=" + email + ", semester=" + semester
+				+ "]";
+	}
+	
+	
+
 }
